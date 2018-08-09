@@ -1,0 +1,159 @@
+/* universal code */
+
+html {
+  font-family: helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* banner */
+
+.banner{
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  z-index: 1;
+}
+
+.banner .container{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 2rem;
+}
+
+.title img{
+  height: 1.5rem;
+}
+
+.title span{
+  padding: 1rem;
+}
+
+.banner nav {
+  padding: 0 1rem;
+}
+
+.banner ul {
+  color: white;
+  display: flex;
+}
+
+.banner li {
+  margin: 0 1rem;
+}
+
+/* main banner */
+
+header{
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.headline{
+    margin-top: 10rem;
+}
+
+.headline .container{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.box{
+  position: relative;
+  left: 2rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  justify-content: center;
+  }
+
+.box span{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* feature */
+.feature {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.featurebox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    height: 8rem;
+    width: 5rem;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.featurebox img{
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.featurebox img.paper-icon{
+  width: 3.5rem;
+}
+
+/* contents*/
+
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.contentbox{
+    width: 35%;
+    margin: 2.5%;
+}
+
+.contentname {
+  background-color: cadetblue;
+  width:10rem;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* footer */
+footer{
+  padding: 2rem;
+  display:flex;
+  justify-content: center;
+}
+
+footer .container{
+  background-color: azure;
+
+}
+
+footer .title{
+  padding: 4rem;
+}
+
+footer span{
+  color: black;
+}
